@@ -4,7 +4,7 @@ FROM quay.io/redhat-user-workloads/rh-openshift-builds-tenant/openshift-jenkins-
 
 FROM quay.io/redhat-user-workloads/rh-openshift-builds-tenant/openshift-jenkins-2-462/jenkins-plugin-manager-2-462@sha256:538cf5c12819550d2565a5132daef6fcf33a25b4328e37d345504a769fc3e30c as plugin-manager
 
-FROM registry.access.redhat.com/ubi9/openjdk-17-runtime:1.20-2.1724037300 AS controller
+FROM registry.access.redhat.com/ubi9/openjdk-17-runtime:1.20-2.1725851029 AS controller
 
 USER root
 
